@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Album landing page</title>
+
+		<link href="./style.css" rel="stylesheet">
+	</head>
+
+	<body>
+        <header id="header">
+            <div class="header-bar">
+                <img id="header-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Revolver%2C_The_Beatles_album_logo_%281966%29.svg/800px-Revolver%2C_The_Beatles_album_logo_%281966%29.svg.png" 
+                    alt="Logo of the album 'Revolver'">
+            
+            <nav id="nav-bar">
+                <ul id="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="#features-section">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#track-list-section">Track list</a></li>
+                <li class="nav-item"><a class="nav-link" href="#video-section">Video</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing-section">Pricing</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+    
+        <main>
+            <h1>New album "REVOLVER" by "The Beatles" is out!</h1>
+            <hr style="margin-bottom: 0;">
+            
+            <section id="features-section">
+                <h2>Features</h2>
+                <img id="album-cover" src="https://upload.wikimedia.org/wikipedia/en/e/ec/Revolver_%28album_cover%29.jpg"
+                    alt="Revolver album cover image">
+                <ul id="features-list">
+                    <li>7th studio album by the popular British rock band</li>
+                    <li>Released by "Parlophone" and produced by acclaimed George Martin</li>
+                    <li>14 tracks including instant classics ‘Yellow Submarine’ and ‘Tomorrow Never Knows’</li>
+                    <li>Innovative album expanding the boundaries of pop music</li>
+                </ul>
+            </section>
+            <hr>
+            
+            <section id="track-list-section">
+                <h2>Track list</h2>
+                <div class="track-list-container">
+                    <div class="track-list-side">
+                        <p>Side one:</p>
+                        <ol class="track-list">
+                            <li>Taxman</li>
+                            <li>Eleanor Rigby</li>
+                            <li>I'm Only Sleeping</li>
+                            <li>Love You To</li>
+                            <li>Here, There and Everywhere</li>
+                            <li>Yellow Submarine</li>
+                            <li>She Said She Said</li>
+                        </ol>
+                    </div>
+                    <div class="track-list-side">
+                        <p>Side two:</p>
+                        <ol class="track-list">
+                            <li>Good Day Sunshine</li>
+                            <li>And Your Bird Can Sing</li>
+                            <li>For No One</li>
+                            <li>Doctor Robert</li>
+                            <li>I Want to Tell You</li>
+                            <li>Got to Get You into My Life</li>
+                            <li>Tomorrow Never Knows</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            
+            <section id="video-section">
+                <h2>Video</h2>
+                <p>Learn 10 interesting facts about The Beatles' "Revolver" album:</p>
+                <iframe id="video"
+                        title="Video file: Ten interesting facts about the Beatles"
+                        src="https://www.youtube.com/embed/M3yY8H4pBww" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </section>
+            <hr>
+            
+            <section id="pricing-section">
+                <h2>Pricing</h2>
+                <div class="pricing-container">
+                    <div class="pricing-item">
+                        <img class="covers-pricing" 
+                            src="https://images-na.ssl-images-amazon.com/images/I/91ffeWzPNpL._SL1500_.jpg"
+                            alt="Cover of audio CD">
+                        <div class="price">
+                            <p><u>Format</u>: audio CD</p>
+                            <p><u>Price</u>: 18,98$</p>
+                            <a href="https://www.amazon.com/Revolver-Beatles/dp/B0025KVLTC/ref=tmm_acd_title_0?_encoding=UTF8&qid=&sr="
+                            target="_blank"
+                            class="order-button">Order</a>
+                        </div>
+                    </div>
+            
+                    <div class="pricing-item">
+                        <img class="covers-pricing"
+                            src="https://images-na.ssl-images-amazon.com/images/I/81oU2kVp5rL._SL1500_.jpg"
+                            alt="Cover of vinyl record">
+                        <div class="price">
+                            <p><u>Format</u>: vinyl record</p>
+                            <p><u>Price</u>: 22,98$</p>
+                            <a href="https://www.amazon.com/Revolver-Beatles/dp/B0041KVYIW/ref=tmm_vnl_title_0?_encoding=UTF8&qid=&sr="
+                            target="_blank"
+                            class="order-button">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <hr>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Subscribe for the latest news and updates about "Revolver":</label>
+            <br>
+            <input type="email" 
+                    id="email" 
+                    placeholder="Enter your email address"
+                    name="email">
+            <input type="submit" 
+                    id="submit" 
+                    value="Subscribe">
+            </form>
+            <hr>
+        </main>
+        
+        <footer>
+            <em>&copy 2021, Aleafan<em>
+            <div id="doc-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </footer>
+    </body>
+</html>
